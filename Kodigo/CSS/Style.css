@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(/fondo.jpeg);
+    background-position: center;
+    background-size: 100%;
+}
+header{
+    padding: 10 px 10px
+}
+h1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.477);
+    width: 400px;
+
+}
+
+/* Navegador */
+nav{ 
+    text-align: center;
+}
+nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+
+
+ .botonNext, .botonAnterior{
+    background-color: rgba(128, 128, 128, 0.056);
+    margin: 2px;
+    padding: 5px 5px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    background-color: rgba(238, 10, 10, 0.674);
+    font-family: white Arial, Helvetica, sans-serif;
+    font-size: larger;
+    height: 30px;
+    width: 90px;
+}
+
+/* Imagen */
+#contenedor{
+    background-color: rgba(0, 0, 0, 0.477);
+    margin: 10px;
+    height: 420px;
+}
+.contenedorImg{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+.imgFirst{
+    position: absolute;
+    z-index: 1;
+    height: 324px;
+    width: 627px;
+    top: 130px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.pc{
+    position: absolute;
+    width: 827px;
+    height: 405px;
+    top: 100px;
+    z-index: 0;
+}
+
+.back{
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.477);
+    height: 75px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   align-self: flex-end;
+}
+
+.musica {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
